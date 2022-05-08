@@ -1,0 +1,81 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif, Work Sans;
+}
+
+ul {
+  list-style: none;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+li a:hover {
+ background-color: white;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  margin-left: 20px;
+}
+
+.giriş {
+  margin-right: 50px;
+}
+
+#misir {
+  margin-left: 50px;
+}
+
+span {
+  color: white;
+  position: relative;
+  top: 3px;
+  left: 10px;
+}
+
+#mshakkında {
+  margin: -180px 0px 0px 1000px;
+}
+
+.moataz:hover {
+    color: red;
+}
+
+strong a {
+  color: red;
+}
+
+#haklar {
+  margin-top: -100px;
+}
+
