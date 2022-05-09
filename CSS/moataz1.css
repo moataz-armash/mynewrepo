@@ -68,7 +68,7 @@ top: 3px;
 left: 10px;
 }
 
-h1.hakk {
+h1.title {
   color: #333;
 }
 
@@ -84,20 +84,19 @@ strong a {
 color: red;
 }
 
-.line {
+.linehak {
   width: 180px;
   margin-top: -8px;
 }
 
 .rounded-pill {
-  border-radius: 2rem!important;
+  border-radius: 9rem!important;
 }
 
 a img.personalimg {
-  width: 200px;
   height: 235px;
-  margin-left: -10px;
-    margin-top: 50px;
+  margin-left: -30px;
+  margin-top: 30px;
 }
 
 .container-info {
@@ -106,6 +105,7 @@ a img.personalimg {
 
 div aside {
   border: 2px #E5E5E5 solid;
+  border-radius: 15px;
   background-color: #E5E5E5;
   padding: 10px;
   width: 1500px;
@@ -113,3 +113,100 @@ div aside {
   margin-left: 185px;
   margin-right: -150px;
 }
+
+div.center span {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-top: -13px;
+  height: 34px;
+}
+
+div.progress {
+  margin-top: 20px;
+  margin-left: 67px;
+  margin-right: -200px;
+}
+
+
+
+div.rightside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 180px;
+  margin-top: -13px;
+  height: 194px;
+}
+
+div.rightside span.linux {
+  color: #dc3546;
+}
+
+div.rightside span.front {
+  color: black;
+}
+
+div.rightside span#tasarım {
+  color: #0dcaf0; 
+}
+
+
+
+aside span {
+  color: black;
+  padding: 4px;
+}
+
+div.metin {
+  padding-top: 25px;
+  font-size: 1rem;
+  display: flex;
+}
+
+.line-hobi  {
+  width: 120px;
+  margin-top: -8px;
+}
+
+.container-mid-section {
+  display: flex;
+  justify-content: center;
+}
+
+.container-mid-section img.rounded-pill, .container-end-section img.rounded-pill {
+  border-radius: 4rem!important;
+}
+
+.yüzme {
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.yüzme2 {
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.yüzme3 {
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.container-end-section {
+  display: flex;
+  justify-content: center;
+} 
+
+.line-etkin {
+  width: 150px;
+  margin-top: -8px;
+}
+
