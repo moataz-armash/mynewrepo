@@ -45,7 +45,7 @@ a {
 text-decoration: none;
 }
 
-li a.şehrim:link {
+li a.cv:link {
 background-color: white; 
 }
 
@@ -106,36 +106,3 @@ h3.kahire {
   color: #c9954a;
 }
 
-#kahire-photo {
-  margin: -240px 0px 0px 1000px;
-  width: 400px;
-    height: 230px;
-
-}
-
-span.kahire-metin {
-  color: black;
-}
-
-h3.luxor {
-  color: #c9954a;
-}
-
-#luxor-photo {
-  margin: -240px 0px 0px 1000px;
-  width: 400px;
-    padding-top: 60px;
-    height: 300px;
-}
-
-h3.iskenderiye {
-  color: #c9954a;
-}
-
-
-#iskenderiye-photo {
-  margin: -240px 0px 0px 1000px;
-  width: 400px;
-    padding-top: 60px;
-    height: 300px;
-}
