@@ -111,7 +111,7 @@ label b{
 }
 
 button[type=submit] {
-  background-color: #04AA6D;
+  background-color: black;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -125,10 +125,15 @@ button:hover {
   opacity: 0.8;
 }
 
-.cancelbtn {
+.iptal {
   width: auto;
   padding: 10px 18px;
-  background-color: #f44336;
+  background-color: white;
+  background-color: #f1f1f1;
+}
+
+.iptal:hover {
+  color: #dc3546;
 }
 
 .imgcontainer {
@@ -146,7 +151,7 @@ img.avatar {
   margin-left: 28px;
 }
 
-span.psw {
+span.şifre {
   /* float: right; */
   padding-top: 16px;
   margin-left: 170px;
@@ -160,11 +165,11 @@ b {
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
-  span.psw {
+  span.şifre {
      display: block;
      float: none;
   }
-  .cancelbtn {
+  .iptal {
      width: 100%;
   }
 }

@@ -78,6 +78,7 @@ margin: -180px 0px 0px 1000px;
 
 .moataz:hover {
   color: red;
+  cursor: pointer;
 }
 
 strong a {

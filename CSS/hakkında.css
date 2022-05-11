@@ -179,6 +179,33 @@ div.metin {
   border-radius: 4rem!important;
 }
 
+span.text {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+}
+
+span.text1 {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  margin-right: 13px;
+}
+
+span.text2 {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  margin-right: 17px;
+}
+
+.container-text {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -40px;
+  margin-top: -70px;
+}
+
 .yüzme {
   width: 400px;
   height: 400px;
