@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  font-family: sans-serif, Work Sans;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 18px;
 }
 
 ul {
@@ -121,18 +122,22 @@ button[type=submit] {
   width: 34%;
 }
 
+span.error {
+  color: #FF0000;
+}
+
 button:hover {
   opacity: 0.8;
 }
 
-.iptal {
+button.Reset {
   width: auto;
   padding: 10px 18px;
   background-color: white;
   background-color: #f1f1f1;
 }
 
-.iptal:hover {
+button.Reset:hover {
   color: #dc3546;
 }
 
@@ -169,7 +174,7 @@ b {
      display: block;
      float: none;
   }
-  .iptal {
+  .Reset {
      width: 100%;
   }
 }

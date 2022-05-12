@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  font-family: sans-serif, Work Sans;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 18px;
 }
 
 ul {
@@ -110,6 +111,10 @@ aside.photos {
   float: right;
   margin-right: 140px;
   margin-top: 100px;
+}
+
+div.carousel-inner {
+  border-radius: 75px;
 }
 
 span.vikipedi {
