@@ -47,7 +47,7 @@ text-decoration: none;
 }
 
 li a.cv:link {
-background-color: white; 
+background-color: white;  
 }
 
 ul li {
@@ -62,24 +62,63 @@ margin-right: 50px;
 margin-left: 50px;
 }
 
-span {
+span.header {
 color: white;
 position: relative;
 top: 3px;
 left: 10px;
 }
 
-h1.hakk {
-  color: #dc3546;
+section.A4 {
+border: 2px solid white;
+padding: 3px;
+width: 60%;
+height: 1300px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
-span.Mısır-metin {
-  color: black;
+.container-mid-section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+span.Moataz-heading {
+        color: black;
+        font-size: 40px;
+        margin-left: -40px
+}
+
+.border-department {
+  border: 2px #ededed solid;
+  background-color: #ededed;
+  border-radius: 6px;
+  padding: 2px 3px;
+  width: 225px;
+  margin-left: 4px;
+}
+
+.profile {
+  margin-left: 80px;
+}
+
+.text-profile {
+        margin-left: 300px;
+}
+
+.metin {
+  text-align: center;
+}
+
+
+h1.title {
+  color: #333;
 }
 
 #mshakkında {
-margin: -240px 0px 0px 1000px;
-
+margin: -180px 0px 0px 1000px;
 }
 
 .moataz:hover {
@@ -90,20 +129,127 @@ strong a {
 color: red;
 }
 
-.line{
-  width: 940px;
+.linehak {
+  width: 180px;
   margin-top: -8px;
 }
 
-span.vikipedi {
-  color: #AFAFAF;
-}
- 
-div h1.mısır-gezilecek {
-  color: #333;
+.rounded-pill {
+  border-radius: 9rem!important;
 }
 
-h3.kahire {
-  color: #c9954a;
+a img.personalimg {
+  height: 235px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.container-info {
+  display: flex;
+}
+
+div aside {
+  margin-left: 100px;
+}
+
+div.center span {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-top: -13px;
+  height: 34px;
+}
+
+div.center{
+  margin-left: 230px;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+aside span {
+  color: black;
+  padding: 4px;
+}
+
+div.progress {
+  margin-top: 20px;
+  margin-left: 67px;
+  margin-right: -200px;
+  width: 400px;
+}
+
+.container-mid-section {
+  display: flex;
+  justify-content: center;
+}
+
+.container-mid-section img.rounded-pill, .container-end-section img.rounded-pill {
+  border-radius: 4rem!important;
+}
+
+span.text {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+}
+
+span.text1 {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  margin-right: 13px;
+}
+
+span.text2 {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  margin-right: 17px;
+}
+
+.container-text {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -40px;
+  margin-top: -70px;
+}
+
+.yüzme {
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.yüzme2 {
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.yüzme3 {
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.container-end-section {
+  display: flex;
+  justify-content: center;
+} 
+
+.line-etkin {
+  width: 165px;
+  margin-top: -8px;
 }
 

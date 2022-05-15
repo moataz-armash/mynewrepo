@@ -200,6 +200,28 @@ span.text2 {
   margin-right: 17px;
 }
 
+span.text3 {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+span.text4 {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  margin-left: 13px;
+}
+
+span.text5 {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  margin-right: 17px;
+}
+
+
 .container-text {
   display: flex;
   justify-content: space-around;
