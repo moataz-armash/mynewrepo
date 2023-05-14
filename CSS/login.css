@@ -1,49 +1,48 @@
-*{
+* {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 body {
-  font-family: 'Baloo Chettan 2', cursive;
+  font-family: "Baloo Chettan 2", cursive;
   font-size: 18px;
+  /* overflow-x: hidden; */
 }
 
 ul {
-list-style: none;
+  list-style: none;
 }
 .container {
-padding-left: 15px;
-padding-right: 15px;
-margin-left: auto;
-margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Small */
 @media (min-width: 768px) {
-.container {
-  width: 750px;
-}
+  .container {
+    width: 750px;
+  }
 }
 /* Medium */
 @media (min-width: 992px) {
-.container {
-  width: 970px;
-}
+  .container {
+    width: 970px;
+  }
 }
 /* Large */
 @media (min-width: 1200px) {
-.container {
-  width: 1170px;
+  .container {
+    width: 1170px;
+  }
 }
-}
-
 
 li a:hover {
-background-color: white;
-
+  background-color: white;
 }
 
 a {
-text-decoration: none;
+  text-decoration: none;
 }
 
 /* li a.şehrim:link {
@@ -51,34 +50,33 @@ background-color: white;
 } */
 
 ul li {
-margin-left: 20px;
+  margin-left: 20px;
 }
 
 .giriş {
-margin-right: 50px;
+  margin-right: 50px;
 }
 
 #misir {
-margin-left: 50px;
+  margin-left: 50px;
 }
 
 span {
-color: white;
-position: relative;
-top: 3px;
-left: 10px;
+  color: white;
+  position: relative;
+  top: 3px;
+  left: 10px;
 }
-
 
 .moataz:hover {
   color: red;
 }
 
 strong a {
-color: red;
+  color: red;
 }
 
-.line{
+.line {
   width: 940px;
   margin-top: -8px;
 }
@@ -87,7 +85,7 @@ a img.personalimg {
   width: 100px;
 }
 
-form[method="post"]{
+form[method="post"] {
   width: 25%;
   border: 3px solid #f1f1f1;
   border-radius: 8px;
@@ -95,7 +93,8 @@ form[method="post"]{
   margin-left: 725px;
 }
 
-input[type=text], input[type=password] {
+input[type="text"],
+input[type="password"] {
   width: 34%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -104,14 +103,13 @@ input[type=text], input[type=password] {
   border-radius: 8px;
   box-sizing: border-box;
   display: flex;
-
 }
 
-label b{
+label b {
   color: #858585;
 }
 
-button[type=submit] {
+button[type="submit"] {
   background-color: black;
   color: white;
   padding: 14px 20px;
@@ -123,7 +121,7 @@ button[type=submit] {
 }
 
 span.error {
-  color: #FF0000;
+  color: #ff0000;
 }
 
 button:hover {
@@ -167,14 +165,13 @@ b {
   margin-left: 8px;
 }
 
-
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
   span.şifre {
-     display: block;
-     float: none;
+    display: block;
+    float: none;
   }
   .Reset {
-     width: 100%;
+    width: 100%;
   }
 }

@@ -1,72 +1,71 @@
-*{
+* {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 body {
-  font-family: 'Baloo Chettan 2', cursive;
+  font-family: "Baloo Chettan 2", cursive;
   font-size: 18px;
+  /* overflow-x: hidden; */
 }
 
 ul {
-list-style: none;
+  list-style: none;
 }
 .container {
-padding-left: 15px;
-padding-right: 15px;
-margin-left: auto;
-margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Small */
 @media (min-width: 768px) {
-.container {
-  width: 750px;
-}
+  .container {
+    width: 750px;
+  }
 }
 /* Medium */
 @media (min-width: 992px) {
-.container {
-  width: 970px;
-}
+  .container {
+    width: 970px;
+  }
 }
 /* Large */
 @media (min-width: 1200px) {
-.container {
-  width: 1170px;
+  .container {
+    width: 1170px;
+  }
 }
-}
-
 
 li a:hover {
-background-color: white;
-
+  background-color: white;
 }
 
 a {
-text-decoration: none;
+  text-decoration: none;
 }
 
 li a.hakkında:link {
-background-color: white;  
+  background-color: white;
 }
 
 ul li {
-margin-left: 20px;
+  margin-left: 20px;
 }
 
 .giriş {
-margin-right: 50px;
+  margin-right: 50px;
 }
 
 #misir {
-margin-left: 50px;
+  margin-left: 50px;
 }
 
 span {
-color: white;
-position: relative;
-top: 3px;
-left: 10px;
+  color: white;
+  position: relative;
+  top: 3px;
+  left: 10px;
 }
 
 h1.title {
@@ -74,7 +73,7 @@ h1.title {
 }
 
 #mshakkında {
-margin: -180px 0px 0px 1000px;
+  margin: -180px 0px 0px 1000px;
 }
 
 .moataz:hover {
@@ -82,7 +81,7 @@ margin: -180px 0px 0px 1000px;
 }
 
 strong a {
-color: red;
+  color: red;
 }
 
 .linehak {
@@ -91,7 +90,7 @@ color: red;
 }
 
 .rounded-pill {
-  border-radius: 9rem!important;
+  border-radius: 9rem !important;
 }
 
 a img.personalimg {
@@ -105,9 +104,9 @@ a img.personalimg {
 }
 
 div aside {
-  border: 2px #E5E5E5 solid;
+  border: 2px #e5e5e5 solid;
   border-radius: 15px;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   padding: 10px;
   width: 1500px;
   height: 300px;
@@ -130,8 +129,6 @@ div.progress {
   margin-right: -200px;
 }
 
-
-
 div.rightside {
   display: flex;
   flex-direction: column;
@@ -150,10 +147,8 @@ div.rightside span.front {
 }
 
 div.rightside span#tasarım {
-  color: #0dcaf0; 
+  color: #0dcaf0;
 }
-
-
 
 aside span {
   color: black;
@@ -164,9 +159,12 @@ div.metin {
   padding-top: 25px;
   font-size: 1rem;
   display: flex;
+  /* background-color: #333; */
 }
-
-.line-hobi  {
+span.cv {
+  color: black;
+}
+.line-hobi {
   width: 160px;
   margin-top: -8px;
 }
@@ -176,51 +174,57 @@ div.metin {
   justify-content: center;
 }
 
-.container-mid-section img.rounded-pill, .container-end-section img.rounded-pill {
-  border-radius: 4rem!important;
+.container-mid-section img.rounded-pill,
+.container-end-section img.rounded-pill {
+  border-radius: 4rem !important;
 }
 
 span.text {
-  color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 25px;
+  left: 128px;
 }
 
 span.text1 {
-  color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 25px;
   margin-right: 13px;
+  left: 100px;
 }
 
 span.text2 {
-  color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 25px;
-  margin-right: 17px;
+  margin-right: 13px;
+  left: 160px;
 }
 
 span.text3 {
-  color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 25px;
   margin-left: 40px;
+  left: 128px;
 }
 
 span.text4 {
-  color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 25px;
   margin-left: 13px;
+  left: 128px;
 }
 
 span.text5 {
-  color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 25px;
   margin-right: 17px;
+  left: 200px;
 }
-
 
 .container-text {
   display: flex;
@@ -253,10 +257,9 @@ span.text5 {
 .container-end-section {
   display: flex;
   justify-content: center;
-} 
+}
 
 .line-etkin {
   width: 165px;
   margin-top: -8px;
 }
-
